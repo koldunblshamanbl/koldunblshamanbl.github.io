@@ -1,0 +1,57 @@
+cringeneral@Cringestation:~$ inxi -Fxzd
+System:
+  Kernel: 5.15.0-33-generic x86_64 bits: 64 compiler: N/A 
+  Desktop: Cinnamon 5.2.7 Distro: Linux Mint 20.3 Una base: Ubuntu 20.04 focal 
+Machine:
+  Type: Desktop Mobo: ASRock model: H310CM-DVS serial: <filter> 
+  UEFI: American Megatrends v: P4.20 date: 05/14/2019 
+CPU:
+  Topology: Quad Core model: Intel Core i3-9100F bits: 64 type: MCP 
+  arch: Kaby Lake rev: A L2 cache: 6144 KiB 
+  flags: avx avx2 lm nx pae sse sse2 sse3 sse4_1 sse4_2 ssse3 vmx 
+  bogomips: 28800 
+  Speed: 800 MHz min/max: 800/4200 MHz Core speeds (MHz): 1: 800 2: 800 3: 800 
+  4: 800 
+Graphics:
+  Device-1: NVIDIA GK208B [GeForce GT 710] vendor: Gigabyte driver: nouveau 
+  v: kernel bus ID: 01:00.0 
+  Display: x11 server: X.Org 1.20.13 driver: modesetting unloaded: fbdev,vesa 
+  resolution: 1366x768~60Hz 
+  OpenGL: renderer: NV106 v: 4.3 Mesa 21.2.6 direct render: Yes 
+Audio:
+  Device-1: Intel 200 Series PCH HD Audio vendor: ASRock driver: snd_hda_intel 
+  v: kernel bus ID: 00:1f.3 
+  Device-2: NVIDIA GK208 HDMI/DP Audio vendor: Gigabyte driver: snd_hda_intel 
+  v: kernel bus ID: 01:00.1 
+  Sound Server: ALSA v: k5.15.0-33-generic 
+Network:
+  Device-1: Realtek RTL8111/8168/8411 PCI Express Gigabit Ethernet 
+  vendor: ASRock driver: r8169 v: kernel port: d000 bus ID: 02:00.0 
+  IF: enp2s0 state: up speed: 1000 Mbps duplex: full mac: <filter> 
+Drives:
+  Local Storage: total: 409.88 GiB used: 11.87 GiB (2.9%) 
+  ID-1: /dev/sda vendor: Seagate model: ST3320311CS size: 298.09 GiB 
+  ID-2: /dev/sdb vendor: Transcend model: TS120GSSD220S size: 111.79 GiB 
+  Optical-1: /dev/sr0 vendor: Optiarc model: DVD RW AD-7261S rev: 1.03 
+  dev-links: cdrom,cdrw,dvd,dvdrw 
+  Features: speed: 48 multisession: yes audio: yes dvd: yes 
+  rw: cd-r,cd-rw,dvd-r,dvd-ram state: running 
+Partition:
+  ID-1: / size: 108.55 GiB used: 11.86 GiB (10.9%) fs: ext4 dev: /dev/sdb5 
+Sensors:
+  System Temperatures: cpu: 40.0 C mobo: N/A gpu: nouveau temp: 42 C 
+  Fan Speeds (RPM): N/A gpu: nouveau fan: 2160 
+Info:
+  Processes: 229 Uptime: 37m Memory: 7.70 GiB used: 1.46 GiB (19.0%) 
+  Init: systemd runlevel: 5 Compilers: gcc: 9.4.0 Shell: bash v: 5.0.17 
+  inxi: 3.0.38 
+cringeneral@Cringestation:~$ lsusb
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 001 Device 005: ID 09da:054f A4Tech Co., Ltd. USB Device
+Bus 001 Device 004: ID 1ea7:0066 SHARKOON Technologies GmbH [Mediatrack Edge Mini Keyboard]
+Bus 001 Device 003: ID 1a2c:2d23 China Resource Semico Co., Ltd USB Keyboard
+Bus 001 Device 002: ID 058f:6362 Alcor Micro Corp. Flash Card Reader/Writer
+Bus 001 Device 008: ID 0bda:8771 Realtek Semiconductor Corp. 
+Bus 001 Device 006: ID 1a40:0101 Terminus Technology Inc. Hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+
